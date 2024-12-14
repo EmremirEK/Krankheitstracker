@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krankheitstracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Krankheitstracker</h1>
+        <p>Verfolge deine Erkältungen und Symptome.</p>
+        <form id="entry-form">
+            <label for="date">Datum:</label>
+            <input type="date" id="date" required>
+            <label for="symptoms">Symptome:</label>
+            <input type="text" id="symptoms" placeholder="Beschreibe deine Symptome" required>
+            <button type="submit">Eintrag hinzufügen</button>
+        </form>
+        <h2>Deine Einträge</h2>
+        <ul id="entries"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
